@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music site</title>
+    <link rel="icon" type="image/png" href="assets/img/logo.png">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css"> 
+</head>
+<body>
+
+
+    
+    <div class="Add-Header"></div>
+    <header class="header">
+        <div class="container flex align-center">
+            <div class="header-options flex align-center ">
+
+                <div class="header-logo">
+                   <a href="#"><img src="assets/img/logo.png" alt="Site Logo"></a>
+                </div>
+
+                <div class="site-title">
+                    <h1><a href="#">Music WebSite</a></h1>
+                </div>
+
+                <div class="header-search">
+                    <button>
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </button>
+                </div>
+
+            </div>
+
+            <div class="header-menu">
+                <nav>
+                    <ul class="flex ">
+                        <li><a href="#" class="active">Home</a></li>
+                        <li><a href="#">Musics</a></li>
+                        <li><a href="#">Singers</a></li>
+                        <li><a href="#">AboutUs</a></li>
+                        <li><a href="#">ContactUs</a></li>
+                    </ul>
+                </nav>
+                <div class="hamburger-menu">
+                    <button>
+                        <i class="fa fa-bars" aria-hidden="true"></i>Menu
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="Search-Page">
+        <button class="close-section">
+            <i class="fa fa-times" aria-hidden="true"></i>
+        </button>
+
+        <form action="#" method="post">
+            <input type="text" placeholder="Search Your Music or Singer Name">
+            <input type="submit" value="Search">
+        </form>
+
+    </section>
+
+
+    <section class="HamburgerMenu-Area">
+        <button class="close-section" >
+            <i class="fa fa-times" aria-hidden="true"></i>
+        </button>
+        <nav>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Musics</a></li>
+                <li><a href="#">Singers</a></li>
+                <li><a href="#">AboutUs</a></li>
+                <li><a href="#">ContactUs</a></li>
+            </ul>
+        </nav>
+    </section>
+
+
+    <section class="topSlider wow flipInX" data-wow-duration=".5s" data-wow-delay=".5s">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><a href="#"><img src="assets/img/banner1.png" alt="Music Slide 1"></a></div>
+              <div class="swiper-slide"><a href="#"><img src="assets/img/banner2.png" alt="Music Slide 2"></a></div>
+              <div class="swiper-slide"><a href="#"><img src="assets/img/banner3.png" alt="Music Slide 3"></a></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+
+    <section class="suggestionSingers">
+        <div class="container">
+
+            <div class="suggestionPost  wow flipInX" data-wow-duration=".5s" data-wow-delay=".5s">
+                <a href="#"><img src="assets/img/Music1.png" alt="Inna"></a>
+            </div>
+
+            <div class="suggestionPost  wow flipInX" data-wow-duration=".5s" data-wow-delay=".5s">
+                <a href="#"><img src="assets/img/Music2.png" alt="Inna"></a>
+            </div>
+
+            <div class="suggestionPost  wow flipInX" data-wow-duration=".5s" data-wow-delay=".5s">
+                <a href="#"><img src="assets/img/Music3.jpg" alt="Enrique"></a>
+            </div>
+
+        </div>
+    </section>
+
+    <main class="main">
+        <div class="container flex">
+
+            <aside class="sidebar">
+                <div class="tabsMenu">
+                    <div class="tabs">
+                        <button tabs_num="1" class="t-active">Day</button>
+                        <button tabs_num="2">Weekend</button>
+                        <button tabs_num="3">Month</button>
+                    </div>
+
+                    <div class="tabsContent" tabs_content="1">
+                        <section class="t-content">
+                            <div class="c-img">
+                                <a href="#"><img src="assets/img/Music1.png" alt="Inna"></a>
+                            </div>
+                            <div class="C-Options">
+                                <div class="c-title">
+                                    <a href="#"><h2>Inna Music - Be My Lover </h2></a>
+                                </div>
+                                <div class="c-options">
+                                    <div class="view">
+                                        <div class="viewIcon"><i class="fa fa-eye" aria-hidden="true"></i></div> 
+                                        <div class="viewNumber">100</div>
+                                    </div>
+                                    <div class="like">
+                                        <div class="likeIcon">
+                                            <i class="fa fa-heart" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="likeNumber">
+                                            0
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="t-content">
+                            <div class="c-img">
+                              <a href="#">  <img src="assets/img/Music2.png" alt="Inna"></a>
+                            </div>
+                            <div class="C-Options">
+                                <div class="c-title">
+                                    <a href="#"><h2>Inna Music - Be My Lover </h2></a>
+                                </div>
+                                <div class="c-options">
+                                    <div class="view">
+                                        <div class="viewIcon"><i class="fa fa-eye" aria-hidden="true"></i></div> 
+                                        <div class="viewNumber">100</div>
+                                    </div>
+                                    <div class="like">
+                                        <div class="likeIcon">
+                                            <i class="fa fa-heart" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="likeNumber">
+                                            0
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </section>
+
+                        <section class="t-content">
+                            <div class="c-img">
+                                <a href="#"><img src="assets/img/Music3.jpg" alt="Erique"></a>
+                            </div>
+                            <div class="C-Options">
+                                <div class="c-title">
+                                    <a href="#"><h2>Inna Music - Be My Lover </h2></a>
+                                </div>
+                                <div class="c-options">
+                                    <div class="view">
+                                        <div class="viewIcon"><i class="fa fa-eye" aria-hidden="true"></i></div> 
+                                        <div class="viewNumber">100</div>
+                                    </div>
+                                    <div class="like">
+                                        <div class="likeIcon">
+                                            <i class="fa fa-heart" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="likeNumber">
+                                            0
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </section>
+
+                    </div>
+
+
+                    <div class="tabsContent" tabs_content="2" style="display: none;">
+                        <section class="t-content">
+                            <div class="c-img">
+                                <a href="#"><img src="assets/img/Music4.jpg" alt="Inna"></a>
+                            </div>
+                            <div class="C-Options">
+                                <div class="c-title">
+                                    <a href="#"><h2>Inna Music - Be My Lover </h2></a>
+                                </div>
+                                <div class="c-options">
+                                    <div class="view">
+                                        <div class="viewIcon"><i class="fa fa-eye" aria-hidden="true"></i></div> 
+                                        <div class="viewNumber">100</div>
+                                    </div>
+                                    <div class="like">
+                                        <div class="likeIcon">
+                                            <i class="fa fa-heart" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="likeNumber">
+                                            0
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </section>
+
+                        <section class="t-content">
+                            <div class="c-img">
+                                <a href="#"><img src="assets/img/Music5.jpg" alt="Inna"></a>
+                            </div>
+                            <div class="C-Options">
+                                <div class="c-title">
+                                    <a href="#"><h2>Inna Music - Be My Lover </h2></a>
+                                </div>
+                                <div class="c-options">
+                                    <div class="view">
+                                        <div class="viewIcon"><i class="fa fa-eye" aria-hidden="true"></i></div> 
+                                        <div class="viewNumber">100</div>
+                                    </div>
+                                    <div class="like">
+                                        <div class="likeIcon">
+                                            <i class="fa fa-heart" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="likeNumber">
+                                            0
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </section>
+
+                        <section class="t-content">
+                            <div class="c-img">
+                                <a href="#"><img src="assets/img/Music6.jfif" alt="Erique"></a>
+                            </div>
+                            <div class="C-Options">
+                                <div class="c-title">
+                                    <a href="#"><h2>Inna Music - Be My Lover </h2></a>
+                                </div>
+                                <div class="c-options">
+                                    <div class="view">
+                                        <div class="viewIcon"><i class="fa fa-eye" aria-hidden="true"></i></div> 
+                                        <div class="viewNumber">100</div>
+                                    </div>
+                                    <div class="like">
+                                        <div class="likeIcon">
+                                            <i class="fa fa-heart" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="likeNumber">
+                                            0
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </section>
+
+                    </div>
+
+
+                    <div class="tabsContent" tabs_content="3" style="display: none;">
+                        <section class="t-content">
+                            <div class="c-img">
+                                <a href="#"><img src="assets/img/Music1.png" alt="Inna"></a>
+                            </div>
+                            <div class="C-Options">
+                                <div class="c-title">
+                                    <a href="#"><h2>Inna Music - Be My Lover </h2></a>
+                                </div>
+                                <div class="c-options">
+                                    <div class="view">
+                                        <div class="viewIcon"><i class="fa fa-eye" aria-hidden="true"></i></div> 
+                                        <div class="viewNumber">100</div>
+                                    </div>
+                                    <div class="like">
+                                        <div class="likeIcon">
+                                            <i class="fa fa-heart" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="likeNumber">
+                                            0
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </section>
+
+                        <section class="t-content">
+                            <div class="c-img">
+                                <a href="#"><img src="assets/img/Music5.jpg" alt="Inna"></a>
+                            </div>
+                            <div class="C-Options">
+                                <div class="c-title">
+                                    <a href="#"><h2>Inna Music - Be My Lover </h2></a>
+                                </div>
+                                <div class="c-options">
+                                    <div class="view">
+                                        <div class="viewIcon"><i class="fa fa-eye" aria-hidden="true"></i></div> 
+                                        <div class="viewNumber">100</div>
+                                    </div>
+                                    <div class="like">
+                                        <div class="likeIcon">
+                                            <i class="fa fa-heart" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="likeNumber">
+                                            0
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </section>
+
+                        <section class="t-content">
+                            <div class="c-img">
+                                <a href="#"><img src="assets/img/Music6.jfif" alt="Erique"></a>
+                            </div>
+                            <div class="C-Options">
+                                <div class="c-title">
+                                    <a href="#"><h2>Inna Music - Be My Lover </h2></a>
+                                </div>
+                                <div class="c-options">
+                                    <div class="view">
+                                        <div class="viewIcon"><i class="fa fa-eye" aria-hidden="true"></i></div> 
+                                        <div class="viewNumber">100</div>
+                                    </div>
+                                    <div class="like">
+                                        <div class="likeIcon">
+                                            <i class="fa fa-heart" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="likeNumber">
+                                            0
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </section>
+
+                    </div>
+
+
+                </div>
+
+                <div class="socials">
+
+                    <a href="#" class="wow bounceInLeft" data-wow-duration=".5s" data-wow-delay=".5s">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>Instagram
+                    </a>
+
+                    <a href="#" class="wow bounceInLeft" data-wow-duration=".5s" data-wow-delay=".5s">
+                            <i class="fa fa-facebook-official" aria-hidden="true"></i>Facebook
+                    </a>
+
+                    <a href="#" class="wow bounceInLeft" data-wow-duration=".5s" data-wow-delay=".5s">
+                            <i class="fa fa-youtube" aria-hidden="true"></i>YouTube
+                    </a>
+
+                    <a href="#" class="wow bounceInLeft" data-wow-duration=".5s" data-wow-delay=".5s">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>Twitter
+                    </a>
+
+                    <a href="#" class="wow bounceInLeft" data-wow-duration=".5s" data-wow-delay=".5s">
+                            <i class="fa fa-telegram" aria-hidden="true"></i>Telegram  
+                    </a>
+
+                </div>
+
+                <div class="adsPart">
+                    
+                    <a href="#">
+                        <img src="assets/img/Ads1.png" alt="Ads1">
+                    </a>
+
+                    <a href="#">
+                        <img src="assets/img/Ads2.jpg" alt="Ads2">
+                    </a>
+
+                    <a href="#">
+                        <img src="assets/img/Ads3.jpg" alt="Ads3">
+                    </a>
+
+                </div>
+
+            </aside>
+
+            <div class="mainContent">
+
+                <article class="Posts wow flipInX" data-wow-duration=".5s" data-wow-delay=".5s">
+                    <div class="PostImg">
+                        <img src="assets/img/Music1.png" alt="Inna">
+                    </div>
+                    <div class="postContent">
+                        <div class="singerName">
+                            <h2>Singer Name : Inna</h2>
+                        </div>
+
+                        <div class="singerMusicName">
+                            <h3>Singer Music Name : Be My Lover</h2>
+                        </div>
+
+                        <div class="postOptions flex align-center">
+                            <div class="postPublisheDate">
+                                Publish Date : 12/5/2021
+                            </div>
+
+                            <div class="line"></div>
+
+                            <div class="postPublishTime">
+                                Publish Time : 12:38 PM
+                            </div>
+                        </div>
+
+                        <div class="postTags">
+                            <a href="#">Music</a>
+                            <a href="#">New Music</a>
+                            <a href="#">Inna Music</a>
+                            <a href="#">English Music</a>
+                            <a href="#">New Musics</a>
+                            <a href="#">Inna Musics</a>
+                            <a href="#">new</a>
+                            <a href="#">Musics</a>
+                            <a href="#">Download New Music</a>
+                        </div>
+
+                        <div class="Download">
+                            <a href="#"><i class="fa fa-download" aria-hidden="true"></i>Download</a>
+                        </div>
+
+                    </div>
+                </article>
+
+                <article class="Posts wow flipInX" data-wow-duration=".5s" data-wow-delay=".5s">
+                    <div class="PostImg">
+                        <img src="assets/img/Music2.png" alt="Inna">
+                    </div>
+                    <div class="postContent">
+                        <div class="singerName">
+                            <h2>Singer Name : Inna</h2>
+                        </div>
+
+                        <div class="singerMusicName">
+                            <h3>Singer Music Name : Nirvana</h2>
+                        </div>
+
+                        <div class="postOptions flex align-center">
+                            <div class="postPublisheDate">
+                                Publish Date : 12/5/2021
+                            </div>
+
+                            <div class="line"></div>
+
+                            <div class="postPublishTime">
+                                Publish Time : 12:38 PM
+                            </div>
+                        </div>
+
+                        <div class="postTags">
+                            <a href="#">Music</a>
+                            <a href="#">New Music</a>
+                            <a href="#">Inna Music</a>
+                            <a href="#">English Music</a>
+                            <a href="#">New Musics</a>
+                            <a href="#">Inna Musics</a>
+                            <a href="#">new</a>
+                            <a href="#">Musics</a>
+                            <a href="#">Download New Music</a>
+                        </div>
+
+                        <div class="Download">
+                            <a href="#"><i class="fa fa-download" aria-hidden="true"></i>Download</a>
+                        </div>
+
+                    </div>
+                </article>
+
+                <article class="Posts wow flipInX" data-wow-duration=".5s" data-wow-delay=".5s">
+                    <div class="PostImg">
+                        <img src="assets/img/Music3.jpg" alt="Enrique">
+                    </div>
+                    <div class="postContent">
+                        <div class="singerName">
+                            <h2>Singer Name : Enrique</h2>
+                        </div>
+
+                        <div class="singerMusicName">
+                            <h3>Singer Music Name : Heart Beat</h2>
+                        </div>
+
+                        <div class="postOptions flex align-center">
+                            <div class="postPublisheDate">
+                                Publish Date : 12/5/2021
+                            </div>
+
+                            <div class="line"></div>
+
+                            <div class="postPublishTime">
+                                Publish Time : 12:38 PM
+                            </div>
+                        </div>
+
+                        <div class="postTags">
+                            <a href="#">Music</a>
+                            <a href="#">New Music</a>
+                            <a href="#">Enrique Music</a>
+                            <a href="#">English Music</a>
+                            <a href="#">New Musics</a>
+                            <a href="#">Enrique Musics</a>
+                            <a href="#">new</a>
+                            <a href="#">Musics</a>
+                            <a href="#">Download New Music</a>
+                        </div>
+
+                        <div class="Download">
+                            <a href="#"><i class="fa fa-download" aria-hidden="true"></i>Download</a>
+                        </div>
+
+                    </div>
+                </article>
+
+
+                <article class="Posts wow flipInX" data-wow-duration=".5s" data-wow-delay=".5s">
+                    <div class="PostImg">
+                        <img src="assets/img/Music4.jpg" alt="Enrique">
+                    </div>
+                    <div class="postContent">
+                        <div class="singerName">
+                            <h2>Singer Name : Enrique</h2>
+                        </div>
+
+                        <div class="singerMusicName">
+                            <h3>Singer Music Name : Heart Beat</h2>
+                        </div>
+
+                        <div class="postOptions flex align-center">
+                            <div class="postPublisheDate">
+                                Publish Date : 12/5/2021
+                            </div>
+
+                            <div class="line"></div>
+
+                            <div class="postPublishTime">
+                                Publish Time : 12:38 PM
+                            </div>
+                        </div>
+
+                        <div class="postTags">
+                            <a href="#">Music</a>
+                            <a href="#">New Music</a>
+                            <a href="#">Enrique Music</a>
+                            <a href="#">English Music</a>
+                            <a href="#">New Musics</a>
+                            <a href="#">Enrique Musics</a>
+                            <a href="#">new</a>
+                            <a href="#">Musics</a>
+                            <a href="#">Download New Music</a>
+                        </div>
+
+                        <div class="Download">
+                            <a href="#"><i class="fa fa-download" aria-hidden="true"></i>Download</a>
+                        </div>
+
+                    </div>
+                </article>
+
+                <article class="Posts wow flipInX" data-wow-duration=".5s" data-wow-delay=".5s">
+                    <div class="PostImg">
+                        <img src="assets/img/Music5.jpg" alt="Enrique">
+                    </div>
+                    <div class="postContent">
+                        <div class="singerName">
+                            <h2>Singer Name : Enrique</h2>
+                        </div>
+
+                        <div class="singerMusicName">
+                            <h3>Singer Music Name : Heart Beat</h2>
+                        </div>
+
+                        <div class="postOptions flex align-center">
+                            <div class="postPublisheDate">
+                                Publish Date : 12/5/2021
+                            </div>
+
+                            <div class="line"></div>
+
+                            <div class="postPublishTime">
+                                Publish Time : 12:38 PM
+                            </div>
+                        </div>
+
+                        <div class="postTags">
+                            <a href="#">Music</a>
+                            <a href="#">New Music</a>
+                            <a href="#">Enrique Music</a>
+                            <a href="#">English Music</a>
+                            <a href="#">New Musics</a>
+                            <a href="#">Enrique Musics</a>
+                            <a href="#">new</a>
+                            <a href="#">Musics</a>
+                            <a href="#">Download New Music</a>
+                        </div>
+
+                        <div class="Download">
+                            <a href="#"><i class="fa fa-download" aria-hidden="true"></i>Download</a>
+                        </div>
+
+                    </div>
+                </article>
+
+                <article class="Posts wow flipInX" data-wow-duration=".5s" data-wow-delay=".5s">
+                    <div class="PostImg">
+                        <img src="assets/img/Music6.jfif" alt="Enrique">
+                    </div>
+                    <div class="postContent">
+                        <div class="singerName">
+                            <h2>Singer Name : Enrique</h2>
+                        </div>
+
+                        <div class="singerMusicName">
+                            <h3>Singer Music Name : Heart Beat</h2>
+                        </div>
+
+                        <div class="postOptions flex align-center">
+                            <div class="postPublisheDate">
+                                Publish Date : 12/5/2021
+                            </div>
+
+                            <div class="line"></div>
+
+                            <div class="postPublishTime">
+                                Publish Time : 12:38 PM
+                            </div>
+                        </div>
+
+                        <div class="postTags">
+                            <a href="#">Music</a>
+                            <a href="#">New Music</a>
+                            <a href="#">Enrique Music</a>
+                            <a href="#">English Music</a>
+                            <a href="#">New Musics</a>
+                            <a href="#">Enrique Musics</a>
+                            <a href="#">new</a>
+                            <a href="#">Musics</a>
+                            <a href="#">Download New Music</a>
+                        </div>
+
+                        <div class="Download">
+                            <a href="#"><i class="fa fa-download" aria-hidden="true"></i>Download</a>
+                        </div>
+
+                    </div>
+                </article>
+
+                <div class="navigation">
+                    <nav>
+                        <ul>
+                            <li><a href="#"><i class="fa fa-caret-left" aria-hidden="true"></i></a></li>
+                            <li><a href="#" class="navigationActive">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+            </div>
+            
+        </div>
+    </main>
+
+    <section class="mobileAds">
+        <div class="container">
+            <a href="#"><img src="assets/img/MAds1.jpg" alt="Ads1"></a>
+            <a href="#"><img src="assets/img/MAds2.jpg" alt="Ads2"></a>
+            <a href="#"><img src="assets/img/MAds3.jpg" alt="Ads3"></a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+
+            <div class="left">
+               
+                <div class="News">
+                    <form action="#" method="post">
+                        <input type="email" placeholder="Enter Your Email">
+                        <input type="submit" value="Send">
+                    </form>
+                </div>
+
+            </div>
+
+            <div class="right">
+                    <nav>
+                        <ul>
+                            <li><a href="#">Day</a>
+                                
+                                <ul>
+                                    <li><a href="#">Inna</a></li>
+                                    <li><a href="#">Enrique</a></li>
+                                    <li><a href="#">Jenifer lopez</a></li>
+                                    <li><a href="#">Rihanna</a></li>
+                                    <li><a href="#">Shakira</a></li>
+                                </ul>
+                            
+                            </li>
+                        </ul>
+
+                        <ul>
+                            <li><a href="#">Weekend</a>
+                                
+                                <ul>
+                                    <li><a href="#">Inna</a></li>
+                                    <li><a href="#">Enrique</a></li>
+                                    <li><a href="#">Jenifer lopez</a></li>
+                                    <li><a href="#">Rihanna</a></li>
+                                    <li><a href="#">Shakira</a></li>
+                                </ul>
+                            
+                            </li>
+                        </ul>
+
+                        <ul>
+                            <li><a href="#">Month</a>
+                                
+                                <ul>
+                                    <li><a href="#">Inna</a></li>
+                                    <li><a href="#">Enrique</a></li>
+                                    <li><a href="#">Jenifer lopez</a></li>
+                                    <li><a href="#">Rihanna</a></li>
+                                    <li><a href="#">Shakira</a></li>
+                                </ul>
+                            
+                            </li>
+                        </ul>
+
+                    </nav>
+            </div>
+
+        </div>
+    </footer>
+
+    <div class="scrollTop">
+        <i class="fa fa-caret-left" aria-hidden="true"></i>
+    </div>
+
+
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/script.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          spaceBetween: 30,
+          centeredSlides: true,
+          autoplay: {
+            delay: 1000,
+            disableOnInteraction: false,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          
+        });
+
+
+        new WOW().init();
+    </script>
+    
+</body>
+</html>
